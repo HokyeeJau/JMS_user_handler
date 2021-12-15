@@ -1,0 +1,12 @@
+# 数据库连接数据，请注意堡垒机的mysql数据库以根用户连接会存在无密码问题
+db:
+  host: 127.0.0.1
+  user: root
+  passwd: 19990804
+  db: jumpserver
+  port: 3306
+# 数据模板，请每个角色都申请一个模板数据，下方填入模板数据的用户名username
+template:
+  admin: admin
+  auditor: shenjiyuan
+  user: yonghu
